@@ -1,11 +1,10 @@
+//bootstrap
+@import "custom/customVariables";
+
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
 //variables
 @import "custom/variables.scss";
 
 //mixins
 @import "custom/mixins.scss";
-
-//bootstrap
-@import "bower_components/bootstrap/dist/css";
-
-//jquery
-@import "bower_components/jquery/dist/jquery.min.js";
