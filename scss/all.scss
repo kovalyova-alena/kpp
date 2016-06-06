@@ -1,2 +1,36 @@
-@import "core.scss";
+@import "../scss/core.scss";
 
+header {
+  background: url("../img/header_background.jpg") top center;
+  .logo {
+    p {
+      font: 30px $Exo-ExtraBold, sans-serif;
+      color: $text-white;
+      margin-top: 15px;
+      span {
+        font-family: $Exo-Regular;
+      }
+    }
+  }
+  .menu {
+    padding: 0;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        float: left;
+        padding-left: 30px;
+        a {
+          text-decoration: none;
+          text-transform: $text-transform-up;
+          font: 13px/70px $Helv-Med, sans-serif;
+          color: $text-white;
+          &:hover {
+            color: $text-blue;
+          }
+        }
+      }
+    }
+  }
+}

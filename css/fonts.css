@@ -1,0 +1,40 @@
+@font-face {
+    font-family: HelveticaNeueCyr-Black;
+    src: url('../fonts/HelveticaNeueCyr-Black.otf');
+}
+@font-face {
+    font-family: HelveticaNeueCyr-Bold;
+    src: url('../fonts/HelveticaNeueCyr-Bold.otf');
+}
+@font-face {
+    font-family: HelveticaNeueCyr-Italic;
+    src: url('../fonts/HelveticaNeueCyr-Italic.otf');
+}
+@font-face {
+    font-family: HelveticaNeueCyr-Light;
+    src: url('../fonts/HelveticaNeueCyr-Light.otf');
+}
+@font-face {
+    font-family: HelveticaNeueCyr-Medium;
+    src: url('../fonts/HelveticaNeueCyr-Medium.otf');
+}
+
+@font-face {
+    font-family: Exo-Bold;
+    src: url('../fonts/Exo2.0-Bold.otf');
+}
+
+@font-face {
+    font-family: Exo-Black;
+    src: url('../fonts/Exo2.0-Black.otf');
+}
+
+@font-face {
+    font-family: Exo-Regular;
+    src: url('../fonts/Exo2.0-Regular.otf');
+}
+
+@font-face {
+    font-family: Exo-ExtraBold;
+    src: url('../fonts/Exo2.0-ExtraBold.otf');
+}
