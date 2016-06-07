@@ -34,3 +34,49 @@ header {
     }
   }
 }
+
+section.contacts {
+  margin-top: 40px;
+  color: $text-black;
+  .adress {
+    font: 15px $Helv-Reg, sans-serif;
+    img {
+      float: left;
+      padding-right: 10px;
+    }
+    p {
+      margin-top: 7px;
+    }
+  }
+  .work_days {
+    @extend  .adress;
+    background: url("../img/work-days.png") no-repeat;
+    padding: 0;
+    .content_days {
+      padding-left: 7px;
+      p {
+        span {
+          font-family: $Helv-Bold, sans-serif;
+        }
+      }
+    }
+  }
+  .phone {
+    margin-top: 7px;
+    padding: 0;
+    font: 20px $Helv-Bold, sans-serif;
+    .code_phone {
+      margin-top: 7px;
+    }
+    .telephone {
+     padding: 0;
+      margin-top: 3px;
+      p {
+        font-size: 27px;
+      }
+    }
+
+
+
+  }
+}
